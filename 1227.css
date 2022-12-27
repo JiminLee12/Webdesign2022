@@ -1,0 +1,59 @@
+.square{
+	width:100px;
+	height:100px;
+	background-color: blue;
+	animation-name: changeC;
+	animation-duration:5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes changeC {
+	0% {background-color: blue;}
+	25% {background-color: orange;}
+	50% {background-color: green;}
+	75% {background-color: black;}
+	100% {background-color: red}
+}
+
+span{
+	font-weight: bold;
+	display:inline-block;
+	animation: flipping 1s infinite;
+	animation-delay: calc(0.1s * var(--i));
+}
+
+
+@keyframes TextAni{
+	0%{
+		transform:translateY(0px);
+	}
+
+	60%{
+		transform:translateY(10px);
+	}
+}
+
+@keyframes flipping{
+	0%{
+		transform:rotateY(360deg);
+	}
+
+	60%{
+		transform:rotateY(360deg);
+	}
+}
+
+button{
+	padding: 10px 20px;
+	background-color: #75A5FF;
+	border:black;
+	border-radius:20px;
+}
+
+button:hover{
+	background-color: #94EDFF;
+}
+
+.btn-primary{
+	--bs-btn-bg: #94ABFF;
+}

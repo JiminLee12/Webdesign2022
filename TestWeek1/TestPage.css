@@ -1,0 +1,43 @@
+.navbar{
+	background-color: #9C67C9;
+	padding: 10px 30px;
+}
+
+.navbar a{
+	text-decoration: none;
+	padding: 10px 30px;
+	color: white;
+	font-size:15px;
+	font-family: 'Overpass', sans-serif;
+}
+
+h1{
+	font-family: 'Overpass', sans-serif;
+}
+
+h3{
+	font-family: 'Overpass', sans-serif;
+}
+
+.left{
+	float:left;
+	width: 50%;
+	background-color:#FF9999;
+}
+
+.right{
+	float:left;
+	width:50%;
+	background-color:#99A5FF;
+}
+
+.btn{
+	padding:8px 10px;
+	background-color:#9C67C9; 
+	color:white;
+}
+
+.btn:hover{
+	background-color: #99E5FF;
+	transition:0.3s;
+}

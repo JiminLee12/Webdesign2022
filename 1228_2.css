@@ -1,0 +1,27 @@
+.banner-img{
+	background-image:url("tennis.jpg");
+	background-position: 20% 18%;
+	height:50%;
+}
+
+.banner-text{
+	text-align:center;
+	top:10%;
+	left:30%;
+	position:absolute;
+	color:white;
+	background-color: rgba(33,33,33,0.5);
+	padding:0px 20px;
+}
+
+.banner-h2{
+	font-size: 60px
+}
+
+.banner-p{
+	font-size:30px;
+}
+
+/*cursor:text;
+cursor:pointer
+cursor:wait;*/

@@ -1,0 +1,106 @@
+body{
+	margin:0px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+h2{
+	font-size: 2rem;
+}
+
+@media (max-width:800px){
+	.side{
+		width:100%;
+	}
+	.content{
+		width:100%;
+	}
+}
+
+.footer ul{
+	list-style: none;
+}
+
+.header{
+	background-color: #8483D6;
+	color:white;
+	text-align:center;
+	padding:100px;
+	background-image:url("winter.jpg");
+	background-position: right;
+}
+
+.header h1{
+	font-size:60px;
+}
+
+.header p{
+	font-size:20px;
+}
+
+.menu{
+	background-color: #CB83D6;
+	color:white;
+	overflow:hidden;
+}
+
+.menu a{
+	float:left;
+	padding:20px 20px;
+	text-decoration: none;
+	color:white;
+}
+
+.menu a:hover{
+	color:#CB83D6;
+	background-color: white;
+}
+
+.menu a.right{
+	float:right;
+}
+
+
+.side{
+	width:20%;
+	background-color: lightgray;
+	float:left;
+	padding:20px;
+	height:500px;
+}
+
+.content{
+	width:80%;
+	float:left;
+	padding:20px;
+	height:500px;
+}
+.myimg{
+	width:100%;
+	border-radius:40px;
+}
+
+.main{
+	width:100%;
+	height:500px;
+}
+
+.footer{
+	background-color: darkgray;
+	padding:12px;
+}
+
+.footer h4{
+	margin-left: 32px
+}
+
+.right{
+	float:right;
+	padding-right:30px;
+}
+
+.content li{
+	margin-top: 20px;
+}
